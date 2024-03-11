@@ -1,0 +1,115 @@
+
+/* mobile view */
+.skip-link{
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width:1px;
+    height:1px;
+    overflow: hidden;
+   }
+   
+.skip-link:focus{
+      position:static;
+      width: auto;
+      height: auto;
+   }
+
+.grid-discussion{
+	display:grid;
+	grid-template-columns: 300px;
+}
+
+.grid-container{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+}
+
+.menu-link{
+	font-size: 20px;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #ffa500;
+}
+
+div{
+	font-size: 35px;
+}
+
+body{
+	background-color: #f8d7da;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .gallery-video {
+        display: none; 
+    }
+}
+
+ /* For tablets */
+@media only screen and (min-width: 800px) {
+    .music-button {
+        font-size: 20px;
+        padding: 10px 20px;
+        background-color: #ff0000; 
+        color: #ffffff; 
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
+
+    h1 {
+        font-size: 34px; 
+        font-family: "Times New Roman", serif; 
+        text-align: center;
+    }
+
+    div:nth-of-type(2) {
+        margin-bottom: 20px; 
+    }
+
+    body{
+        background-color:cadetblue;
+    }
+
+    .div{
+        display: grid;
+        grid-template-columns: 500px;
+        background-color:#694606;
+    }
+
+    img {
+        max-width: 100%; 
+        height: auto; 
+        margin-bottom: 40px;
+    }
+    
+    .grid-container{
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+    }
+    
+    .menu-link{
+        font-size: 25px;
+    }
+    
+    ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 400px;
+      background-color:#2ac36d;
+      text-align: center;
+    }
+    
+    div{
+        font-size: 30px;
+        text-align: center;
+    }
+  }
